@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
 const uri = 'mongodb://0.0.0.0:27017/wallpapers'
 
@@ -15,3 +15,5 @@ mongoose
       console.log('ERROR: ' + err)
     }
   )
+
+export default mongoose
